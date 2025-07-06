@@ -7562,7 +7562,7 @@
 			)
 		)
 	)
-	(global_label "LCD_MOSI"
+	(global_label "LCD_MISO"
 		(shape output)
 		(at 74.93 45.72 0)
 		(fields_autoplaced yes)
@@ -8494,7 +8494,7 @@
 			)
 		)
 	)
-	(global_label "LCD_MISO"
+	(global_label "LCD_MOSI"
 		(shape output)
 		(at 74.93 48.26 0)
 		(fields_autoplaced yes)
