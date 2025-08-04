@@ -5393,12 +5393,6 @@
 		(uuid "dff2bbad-c027-4662-8c86-e571aee094e7")
 	)
 	(junction
-		(at 248.92 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e71e0047-e8d9-41ef-9eb3-fd7966aaefbc")
-	)
-	(junction
 		(at 229.87 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5935,26 +5929,6 @@
 			(type default)
 		)
 		(uuid "3eaa90a9-49c0-4412-a07b-ee2aff27a335")
-	)
-	(wire
-		(pts
-			(xy 248.92 99.06) (xy 248.92 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f77e638-cdc5-49c2-8379-ba8631d3fd53")
-	)
-	(wire
-		(pts
-			(xy 248.92 105.41) (xy 252.73 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f9d369c-2ece-415b-8c61-29e62b2a9c4d")
 	)
 	(wire
 		(pts
@@ -9301,73 +9275,6 @@
 			(project "modern-keyboard"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 252.73 102.87 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2502a885-6a77-4c4e-b586-c96e0e8c82cb")
-		(property "Reference" "H9"
-			(at 255.27 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 255.27 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 252.73 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 252.73 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a9d16ca-d0fe-4278-bbf4-431e28c58bd2")
-		)
-		(instances
-			(project "hermod"
-				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
-					(reference "H9")
 					(unit 1)
 				)
 			)

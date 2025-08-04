@@ -379,6 +379,12 @@
 		(uuid "105474b6-a171-405b-85cf-7b361c570831")
 	)
 	(junction
+		(at 238.76 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1139c10b-6b9e-4d52-a0dd-b5bc5539575e")
+	)
+	(junction
 		(at 198.12 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -884,7 +890,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 171.45) (xy 228.6 171.45)
+			(xy 220.98 171.45) (xy 238.76 171.45)
 		)
 		(stroke
 			(width 0)
@@ -1041,6 +1047,16 @@
 			(type default)
 		)
 		(uuid "858210db-c711-42df-bcd8-ee4ad4e11b9b")
+	)
+	(wire
+		(pts
+			(xy 233.68 149.86) (xy 233.68 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e42179-46df-459d-a7d5-59d95fcc5d8f")
 	)
 	(wire
 		(pts
@@ -1321,6 +1337,16 @@
 			(type default)
 		)
 		(uuid "fbee90d7-5364-4cbf-b411-46ff97c42132")
+	)
+	(wire
+		(pts
+			(xy 238.76 171.45) (xy 256.54 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd270e4a-b097-487b-afca-63b50a7372a0")
 	)
 	(global_label "col2"
 		(shape input)
@@ -2291,6 +2317,94 @@
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
 					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 238.76 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "313c8086-ac54-4542-b502-352f78965d69")
+		(property "Reference" "D27"
+			(at 241.3 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 241.3 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 238.76 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 238.76 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 238.76 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 238.76 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45ed03e7-7e55-4c57-8e7a-c6327b27688d")
+		)
+		(pin "2"
+			(uuid "53e7e239-2b93-4008-b34f-6a934fac823b")
+		)
+		(instances
+			(project "qmk_scorpio_left"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -4319,6 +4433,74 @@
 			(project "hermod-left"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_HS_CPG135001S30")
+		(at 236.22 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adcd780a-9542-4dbd-afd4-809bfbb6775e")
+		(property "Reference" "CH27"
+			(at 236.22 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "choc_v1_SW_HS"
+			(at 236.22 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+			(at 236.22 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 236.22 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b6c4a60-cc56-4441-aa02-839597df3471")
+		)
+		(pin "1"
+			(uuid "7c87631b-f001-442e-b385-9ed5078157e9")
+		)
+		(instances
+			(project "qmk_scorpio_left"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171/d515a0f5-02b9-43be-9c9a-ca0ce99df960"
+					(reference "CH27")
 					(unit 1)
 				)
 			)

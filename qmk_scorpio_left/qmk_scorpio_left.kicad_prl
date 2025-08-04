@@ -13,7 +13,7 @@
       "shapes": 0.20000000298023224,
       "tracks": 0.5099999904632568,
       "vias": 0.33000001311302185,
-      "zones": 0.3799999952316284
+      "zones": 0.5
     },
     "selection_filter": {
       "dimensions": true,
@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ff57f5fb",
     "zone_display_mode": 0
   },
   "git": {
@@ -90,14 +90,14 @@
     "col_widths": [
       186,
       171,
-      112,
+      113,
       79,
-      112,
-      112,
-      112,
+      113,
+      113,
+      113,
       83,
-      112,
-      112
+      113,
+      113
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
